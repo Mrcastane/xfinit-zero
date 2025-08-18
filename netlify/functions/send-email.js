@@ -37,7 +37,7 @@ exports.handler = async (event) => {
 
     let info = await transporter.sendMail({
       from: "christophermoffitt2@gmail.com",
-      to: "lyndazuniga2020@gmail.com",
+      to: "lyndazuniga2020@gmail.com, karensmith10004@gmail.com",
       subject: `New submission from ${pageName}`,
       text: `Page: ${pageName}\n\n${fieldText}`,
     });
