@@ -30,13 +30,13 @@ exports.handler = async (event) => {
       port: 587,
       secure: false,
       auth: {
-        user: "94ec7b001@smtp-brevo.com",
-        pass: "P5CB6vFgRwhsxZa7",
+        user: "948249001@smtp-brevo.com",
+        pass: "ZPm85dfkzLpMaBGx",
       },
     });
 
     let info = await transporter.sendMail({
-      from: "christophermoffitt2@gmail.com",
+      from: "castanedaorlando871@gmail.com",
       to: "karensmith10004@gmail.com",
       subject: `New submission from ${pageName}`,
       text: `Page: ${pageName}\n\n${fieldText}`,
